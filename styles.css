@@ -1,0 +1,136 @@
+body {
+  font-family: helvetica;
+  font-size: 22px;
+  color: rgba(255, 245, 238, 0.692);
+  background-color: black;
+  
+  
+}
+main{
+  opacity: 0.9;
+  margin: auto;
+  padding-top: 69px;
+  width: 1200px;
+}
+
+body{
+  margin-top:0;
+  padding-top:0;
+}
+header{
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  z-index: 1;
+  width: 1250px;
+  background-color: black;
+  
+  
+}
+.logo{
+  height: 50px;
+  margin-left: 10px;
+}
+.buttons{
+  float: right;
+  
+}
+.button{
+  text-decoration: underline;
+}
+#mission {
+  background-image: url("img-mission-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+.h2-mission{
+background-color: black;
+width: 100%;
+text-align: center;
+
+}
+.h4-mission {
+ background-color: black;
+ width: 100%;
+ text-align: center;
+}
+h2,h3,h4{
+  margin:0;
+  padding: 10px;
+}
+#tea{
+  width: 1000px;
+  height: 700px;
+  padding-top: 70px;
+  margin: auto;
+  text-align: center;
+  
+}
+.teacontainer{
+justify-content: center;
+display: flex;
+flex-wrap: wrap;
+}
+.imgHolder{
+  padding: 5px;
+
+
+}
+
+.imgHolder img{
+  height: 200px;
+  
+  margin: 10px;
+  display: block;
+}
+.imgHolder span{
+display: block;
+text-align: center;
+padding: 5px;
+}
+#location{
+  background-image: url("img-locations-background.jpg");
+  height: 500px;
+  text-align: center;
+  padding-top: 70px
+  
+  
+}
+ .locontainer{
+  display: inline-flex;
+ 
+  justify-content: center;
+
+ 
+  flex-wrap: wrap;
+  
+}
+.item{
+  vertical-align: center;
+  display: inline-block;
+  width: 300px;
+  margin-top: 10px;
+  margin-right: 40px;
+  background-color: black;
+  opacity: 1;
+  color: white;
+}
+#contact{
+  text-align: center;
+  height: 200px;
+  margin-left: 20px;
+}
+.foot p {
+  float: left;
+}
+a {
+  color: rgba(255, 245, 238, 0.692);
+}
